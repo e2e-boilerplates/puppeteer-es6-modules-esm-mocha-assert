@@ -1,5 +1,5 @@
 {
-  "name": "puppeteer-es6modules-esm-mocha-chai",
+  "name": "puppeteer-es6modules-esm-mocha-assert",
   "version": "1.0.0",
   "description": "Puppeteer end-to-end test automation boilerplate project. Using ES6 modules, ESM, mocha and chai.",
   "scripts": {
