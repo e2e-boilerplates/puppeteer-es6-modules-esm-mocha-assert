@@ -4,7 +4,7 @@ import { strictEqual } from "assert";
 let page;
 let browser;
 
-describe("google search", () => {
+describe("sandbox", () => {
   before(async () => {
     browser = process.env.GITHUB_ACTIONS
       ? await puppeteer.launch()
@@ -23,7 +23,7 @@ describe("google search", () => {
     }
   });
 
-  it("should be on google search page", async () => {
+  it("should be on sandbox", async () => {
     await page.waitFor("h1");
     const title = await page.$eval("h1", el => el.textContent);
 
