@@ -13,7 +13,9 @@ describe("sandbox", () => {
     page = await browser.newPage();
 
     await page
-      .goto("https://e2e-boilerplates.github.io/sandbox/", { waitUntil: "networkidle0" })
+      .goto("https://e2e-boilerplates.github.io/sandbox/", {
+        waitUntil: "networkidle0"
+      })
       .catch(() => {});
   });
 
