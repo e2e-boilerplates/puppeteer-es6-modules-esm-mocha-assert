@@ -23,16 +23,16 @@
   },
   "keywords": [
     "assert",
-    "es modules",
+    "es",
     "esm",
     "mocha",
     "puppeteer"
   ],
   "license": "MIT",
-  "name": "puppeteer-es6-modules-esm-mocha-assert",
+  "name": "puppeteer-es-modules-esm-mocha-assert",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/e2e-boilerplates/puppeteer-es6-modules-esm-mocha-assert.git"
+    "url": "git+https://github.com/e2e-boilerplates/puppeteer-es-modules-esm-mocha-assert.git"
   },
   "scripts": {
     "lint": "npx eslint --ext .js ./ --fix",
